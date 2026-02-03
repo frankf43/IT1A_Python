@@ -1,4 +1,4 @@
-print("Zadejte text")
-text = input()
+
+text = input("Zadejte text")
 print("Napsali jste " + text)
 #napsali jsme komentář

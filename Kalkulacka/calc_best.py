@@ -27,6 +27,8 @@ while True:
                 else:    
                     podil = clen1 / clen2
                     print("Podíl je: " + str(podil))
+            case _:
+                print("Neplatná matematická operace.")
                     
         konec = input("Přejete si nějakou další operaci pro člěny " + str(clen1) + " a " + str(clen2) + "? Y/N")
         if konec == "N" or konec == "n":

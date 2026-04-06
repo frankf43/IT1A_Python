@@ -7,15 +7,14 @@ while(True):
     rozdil = clen1 - clen2
     podil = clen1 / clen2
 
-    print("Součet je: " + str(soucet))
-    print("Součin je: " + str(soucin))
-    print("Rozdíl je: " + str(rozdil))
+    print("Součet je: ",soucet)
+    print("Součin je: ",soucin)
+    print("Rozdíl je: ",rozdil)
     if clen2 == 0:
         print("Nelze dělit nulou.")
     else:    
         print("Podíl je: " + str(podil))
     konec = input("Přejete si ukončit program? Y/N")
-    if konec == "Y" or konec == "y":
+    if konec.lower() == "y":
         break    
-
     

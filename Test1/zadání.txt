@@ -1,0 +1,69 @@
+Naprogramujte matematický program, který bude umožňovat na základě textového uživatelského vstupu vypočítat:  
+
+obsah čtverce 
+obvod čtverce 
+obsah obdélníku 
+obvod obdélníku 
+Zároveň bude program umět posoudit, zda je možné sestavit trojúhelník, zda to možné není, zda bude rovnostranný, rovnoramenný, nebo různostranný. 
+
+Program bude postupovat následovně: 
+
+S jakým tvarem si přejete pracovat? Čtverec/obdélník/trojúhelník 
+Případ čtverce: 
+
+Zadejte délku strany 
+Přejete si obsah, nebo obvod? (odpověď slovem) 
+Dle zadání à obsah/obvod je roven X 
+Případ obdélník: 
+
+Zadejte délku strany a 
+Zadejte délku strany b 
+Přejete si obsah, nebo obvod? (odpověď slovem) 
+Dle zadání à obsah/obvod je roven X 
+Případ trojúhelníku: 
+
+Zadejte délku strany a 
+Zadejte délku strany b 
+Zadejte délku strany c 
+Reakce, zda jde trojúhelník sestavit „Lze sestavit trojúhelník“ vs. „Trojúhelník nelze sestavit!“ 
+Po dokončení se program zeptá, zda si přejete pokračovat. Pro pokračování stačí stisknout enter. Pokud uživatel něco zadá, program se ukončí. 
+
+Ošetřete textové vstupy tak, aby v případě špatného vstupu vypsaly „Špatné zadání, zkuste to znovu“. Takto dokud není zadání korektní.  
+
+Ošetřete zadané číselné vstupy, aby nebylo možné zadat písmena. Předpokládáme, že je možné zadávat pouze celá kladná čísla.  
+
+
+ 
+
+Hodnocení: 
+
+Za každou část dostáváte bod. Body jsou 4. Můžete je libovolně namíchat a získat tak lepší známku. 
+
+0 bodů --> 5
+
+1 bod  --> 4
+
+2 body --> 3
+
+3 body --> 4
+
+4 body --> 1 
+
+Body: 
+
+1. Nedotazujete se, co uživatel chce počítat. Uživatel zadá pouze 2 čísla a vy vypíšete obsah, obvod čtverce i obdélníku. 
+2. Program si začne s uživatelem povídat a ten tak získává pouze jeden výstup.
+(obdélník/čtverec/obsah/obvod) 
+3. Ošetření, aby při nesprávném vstupu program uživatele informoval o jeho chybě.
+4. Doplnění trojúhelníku a opakování celého programu. 
+Bonus: 
+
+Za jedničku s váhou 3 stanovte, zda bude trojúhelník rovnostranný, rovnoramenný, nebo obecný. Vypište pod hlášku s informací, že lze sestavit. 
+
+
+
+V příloze je kompilovaný program, který můžete stáhnout a otevřít, abyste měli modelové řešení. Soubor samozřejmě neobsahuje kód, protože je program kompilovaný a jak všichni víme, je v takovém případě vidět pouze strojový kód.
+
+
+
+Soubor pythonu odevzdejte sem.

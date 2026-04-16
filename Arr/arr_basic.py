@@ -21,6 +21,7 @@ print(myList)
 myList.insert(1,"ananas") #přidá prvek na místo kam řekneme, ale nic nezmizí
 print(myList)
 
+
 zeleninaList = ["paprika", "mrkev", "okurka"]
 myList.extend(zeleninaList) #přidá list na konec listu
 print(myList)

@@ -1,7 +1,8 @@
 arr=[]
 for i in range(10):
-    arr.append(i)
+    arr.append(i+1)
 
+#arr = list(range(1,11)) možnost bez cyklu
 print(arr)
 
 while True:
@@ -17,3 +18,4 @@ arr[b] = pom
 
 #arr[1], arr[5] = arr[5], arr[1]
 print(arr)
+
